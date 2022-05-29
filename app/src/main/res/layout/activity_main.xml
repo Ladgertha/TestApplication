@@ -9,6 +9,26 @@
     android:paddingEnd="16dp"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textWithFont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:text="@string/text_with_font"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/spannableGreenText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:text="@string/text_with_spannable_string"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textWithFont" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/blackButton"
         android:layout_width="wrap_content"

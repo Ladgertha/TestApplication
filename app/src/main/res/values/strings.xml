@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TestApplication</string>
+    <string name="text_with_font">Some white text with <font color="#FFC107">yellow text</font></string>
+    <string name="text_with_spannable_string">Some white text with spannable %1s</string>
 </resources>
